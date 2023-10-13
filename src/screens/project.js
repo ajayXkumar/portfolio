@@ -14,7 +14,9 @@ const Project = () => {
       </p>
       <p className='subheading'>E-commerce website</p>
       </div>
-       
+      <div>
+      <p>&emsp;&emsp;&emsp;&emsp;&emsp; <br></br> <br></br> <br></br> <br></br><br></br><br></br><br></br></p>
+     </div>
 
     </div>
   )
