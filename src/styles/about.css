@@ -11,6 +11,7 @@
 
 .maintext {
     color: azure;
+    line-height: 1.2;
     width: 800px;
     height: 400px;
     font-size: 6rem;
@@ -65,4 +66,67 @@
 }
 .resume:hover{
     margin-left: 430px;
+}
+
+@media (max-width:450px) {
+    
+    .maintext {
+        color: azure;
+        line-height: 1.2;
+        width: 300px;
+        height: 200px;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-left: 50px;
+        margin-top: 60px;
+        text-align: left;
+        animation: popup 1s ease forwards;
+        opacity: 1;
+        transform: scale(1);
+    }
+    .summary{
+        color: white;
+        width: 300px;
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 0px;
+        font-size: .7rem;
+        animation: popup 1s ease forwards;
+        opacity: 1;
+        transform: scale(1);
+    }
+    .education{
+        color: white;
+        width: 300px;
+        text-align: left;
+        margin-left: 50px;
+        font-size: 0.7rem;
+        animation: popup 1s ease forwards;
+        opacity: 1;
+        transform: scale(1);
+    }
+    .Skills{
+        color: white;
+        width: 300px;
+        text-align: left;
+        margin-left: 50px;
+        font-size: .7rem;
+        animation: popup 1s ease forwards;
+        opacity: 1;
+        transform: scale(1);
+    }
+    .resume{
+        margin-top: 30px;
+        width: 300px;
+        text-align: left;
+        margin-left: 50px;
+        font-size: 0.8rem;
+        animation: popup 1s ease forwards;
+        opacity: 1;
+        transform: scale(1);
+        transition: margin-left 0.3s ease;
+    }
+    .resume:hover{
+        margin-left: 60px;
+    }
 }

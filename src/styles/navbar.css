@@ -8,3 +8,18 @@
     text-decoration: none;
     color: rgb(255, 0, 0);
 }
+
+@media (max-width:420px) {
+    
+    .linked {
+        color: red;
+        position:fixed;
+        margin-left: 340px;
+        margin-top: 60px;
+    }
+    .linked a{
+        text-decoration: none;
+        color: rgb(255, 0, 0);
+    }
+    
+}
