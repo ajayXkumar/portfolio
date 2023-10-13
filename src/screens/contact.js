@@ -18,9 +18,9 @@ const Contact = () => {
         </p>
       </div>
       <div>
-      <p><a href="mailto:kumar.ajay2connect@gmail.com" className="contacts">Gmail</a>
-      <a href="https://www.linkedin.com/in/ajay-kumar-b87905257/" className="contacts">Linkedin</a>
-      <a href="https://github.com/ajayXkumar" className="contacts">Github</a>
+      <p><a href="mailto:kumar.ajay2connect@gmail.com" className="contacts" target="_blank">Gmail</a>
+      <a href="https://www.linkedin.com/in/ajay-kumar-b87905257/" className="contacts" target="_blank">Linkedin</a>
+      <a href="https://github.com/ajayXkumar" className="contacts" target="_blank">Github</a>
       </p>
       </div>
       <div>
