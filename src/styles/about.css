@@ -1,0 +1,68 @@
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.maintext {
+    color: azure;
+    width: 800px;
+    height: 400px;
+    font-size: 6rem;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 200px;
+    animation: popup 1s ease forwards;
+    opacity: 1;
+    transform: scale(1);
+}
+.summary{
+    color: white;
+    width: 800px;
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    animation: popup 1s ease forwards;
+    opacity: 1;
+    transform: scale(1);
+}
+.education{
+    color: white;
+    width: 600px;
+    text-align: left;
+    margin-left: 400px;
+    font-size: 1.2rem;
+    animation: popup 1s ease forwards;
+    opacity: 1;
+    transform: scale(1);
+}
+.Skills{
+    color: white;
+    width: 600px;
+    text-align: left;
+    margin-left: 400px;
+    font-size: 1.2rem;
+    animation: popup 1s ease forwards;
+    opacity: 1;
+    transform: scale(1);
+}
+.resume{
+    margin-top: 30px;
+    width: 600px;
+    text-align: left;
+    margin-left: 400px;
+    font-size: 1.2rem;
+    animation: popup 1s ease forwards;
+    opacity: 1;
+    transform: scale(1);
+    transition: margin-left 0.3s ease;
+}
+.resume:hover{
+    margin-left: 430px;
+}

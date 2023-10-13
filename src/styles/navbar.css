@@ -1,0 +1,10 @@
+.linked {
+    color: red;
+    position:fixed;
+    margin-left: 1300px;
+    margin-top: 100px;
+}
+.linked a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
