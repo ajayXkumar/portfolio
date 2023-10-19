@@ -10,7 +10,7 @@ const Project = () => {
       </div>
       <div className='projects'>
       <p className='heading'>
-      <a href="https://ecom-oihe.onrender.com/" target="_blank">Artiz</a>
+      <a href="/debate-app" target="_blank">Artiz</a>
       </p>
       <p className='subheading'>E-commerce website</p>
       </div>
