@@ -6,6 +6,7 @@ import About from './screens/about'
 import Navbar from "./screens/Navbar"
 import Contact from './screens/contact';
 import Project from './screens/project';
+import Debate from './screens/debate';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
               <Route path="/about" element={<About/>}/>
               <Route path="/contact" element={<Contact/>}/>
               <Route path="/projects" element={<Project/>}/>
+              <Route path="/debate-app" element={<Debate/>}/>
         </Routes>
         </BrowserRouter>
     

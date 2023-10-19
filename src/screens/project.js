@@ -5,14 +5,14 @@ const Project = () => {
     <div>
       <div className='projects'>
       <p className='heading'>
-      <a href="https://ecom-oihe.onrender.com/" target="_blank">Debate website</a></p>
-      <p className='subheading'>mern stack based website </p>
+      <a href="https://ecom-oihe.onrender.com/" target="_blank">Artiz</a></p>
+      <p className='subheading'>ecomm website </p>
       </div>
       <div className='projects'>
       <p className='heading'>
-      <a href="/debate-app" target="_blank">Artiz</a>
+      <a href="/debate-app" target="_blank">Debate</a>
       </p>
-      <p className='subheading'>E-commerce website</p>
+      <p className='subheading'>mern stack</p>
       </div>
       <div>
       <p>&emsp;&emsp;&emsp;&emsp;&emsp; <br></br> <br></br> <br></br> <br></br><br></br><br></br><br></br></p>
