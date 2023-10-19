@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/about.css";
+
 const About = () => {
   return (
     <div>
@@ -45,9 +46,11 @@ const About = () => {
         <div></div>
       </div>
       <div className="resume">
-        <p style={{ color: "red", fontWeight: "bold" }}>
-          my resume (pdf 109kb)
+       
+        <p >
+         <a href="/ajay_dev_resume.pdf" download style={{ color: "red", fontWeight: "bold" ,textDecoration:"none"}}>my resume (pdf 119kb)</a> 
         </p>
+       
         <div></div>
       </div>
       <div>
