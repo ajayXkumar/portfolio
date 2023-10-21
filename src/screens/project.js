@@ -14,6 +14,12 @@ const Project = () => {
       </p>
       <p className='subheading'>mern stack</p>
       </div>
+      <div className='projects'>
+      <p className='heading'>
+      <a href="https://sticky-uu68.onrender.com/" target="_blank">Sticky notes</a>
+      </p>
+      <p className='subheading'>virtual sticky notes </p>
+      </div>
       <div>
       <p>&emsp;&emsp;&emsp;&emsp;&emsp; <br></br> <br></br> <br></br> <br></br><br></br><br></br><br></br></p>
      </div>
